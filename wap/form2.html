@@ -41,19 +41,19 @@
         
        
     </nav>
-    <div>
+   <div>
         <h1>New Product Form</h1>
         <form action="">
             <label for="">Product Number</label>
-            <input class="input" type="number">
+            <input class="input" type="number" id="num">
             <label for="">Name</label>
-            <input class="input" type="text">
+            <input class="input" type="text" id="na">
             <label for="">Unit Price</label>
-            <input class="input" type="number" placeholder="0.0">
+            <input class="input" type="number" id="pr"  placeholder="0.0">
             <label for="">Quantity in Stock</label>
-            <input class="input" type="number">
+            <input class="input" type="number"  id="qt">
             <label for="">Supplier</label>
-            <select class="input">
+            <select class="input" id="selc">
                 <option selected>Select a Supplier </option>
                 <option>Jerry</option>
                 <option>George</option>
@@ -62,12 +62,21 @@
                 
                 </select>
                 <label for="">Date Supplied</label>
-                <input class="input" type="date" placeholder="yyyy-mm-dd">
+                <input class="input" type="date" id="dat" placeholder="yyyy-mm-dd">
                 <button>Reset</button>
-                <button>Cancel</button>
-                <button>Add Product</button>
+                <button >Cancel</button>
+                <button id="mybtn">Add Product</button>
     
         </form>
+		<script> 
+	    function display(){
+		window.alert( document.getElementById("num").value +" "+document.getElementById("na").value+" " +document.getElementById("pr").value+" "+ document.getElementById("qt").value+" " +document.getElementById("selc").value+" " +document.getElementById("dat").value);
+		}
+		var btn = document.getElementById("mybtn");
+	    // add event listener for the button, for action "click"
+	    btn.addEventListener("click", display);
+		</script>
+		
     </div>
     
 </body>
