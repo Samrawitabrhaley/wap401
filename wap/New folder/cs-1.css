@@ -1,0 +1,28 @@
+nav p{
+    color: white;
+}
+.nav-link{
+    border-left: 1px solid white;
+    
+}
+.image{
+    height: 300px;
+    width: 100%;
+}
+.email{
+    color: crimson;
+}
+.footer{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colour{
+    display: flex;
+    justify-content: end;
+    
+}
+.btn-danger{
+    margin-left: 20px;
+}

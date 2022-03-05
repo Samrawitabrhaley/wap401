@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="mid2.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="#">Holy Cross Medical Center</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="./mid2.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Patients</a>
+                  </li>
+                </ul>
+                <p id="clock">sadfrghtr</p>
+                &nbsp;
+                <p>Welcome,Guest</p>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section class="container">
+       <h3>patients Registration form page:</h3>
+       <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1" class="fw-bold">*Patient ID Number</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="EP-xxx-xxxxx">
+          <small id="emailHelp" class="form-text text-muted">Enter the patients ID number</small>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="fw-bold">*First Name:</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <small id="emailHelp" class="form-text text-muted">Enter the patients first name </small>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="fw-bold">Middle initial</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="fw-bold">last Name</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <small id="emailHelp" class="form-text text-muted">Enter the patients last name</small>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="fw-bold">*Date of birth</label>
+                    <input type="date" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <small id="emailHelp" class="form-text text-muted">Enter the patients Date of birth </small>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="fw-bold">department</label>
+                    <select class="form-control">
+                        <option selected > Select</option>
+                        <option value="cardiology">cardiology</option>
+                        <option value=""> Ear,nose</option>
+                        <option value=""> Primary care</option>
+                    </select>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="exampleInputPassword1" class="fw-bold">*is this an outpatient?</label>
+                    <div>
+                        <input type="radio" >yes
+                        <input type="radio" >no
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+
+       <div class="colour">
+        <button type="submit" class="btn btn-secondary">Reset</button>
+        <button type="submit" class="btn btn-danger">register Patient</button>
+       </div> 
+       
+        
+      </form>
+      
+
+    </section>
+      
+
+   
+    <footer class="footer"  >
+    
+    
+<p id="old">O.kalu:::CS472-WAP </p>
+<p id="new">HCMV &copy; may 2020</p>
+
+    </footer>
+    
+</body>
+</html>
