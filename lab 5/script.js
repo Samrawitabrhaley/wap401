@@ -10,7 +10,7 @@ function Time() {
     // Get current second
     var second = date.getSeconds();
     // Variable to store AM / PM
-    var period = "";
+    var period = "";1
     // Assigning AM / PM according to the current hour
     if (hour >= 12) {
     period = "PM";

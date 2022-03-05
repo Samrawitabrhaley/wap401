@@ -29,3 +29,7 @@ console.log(names.reduce(reduce,0));
 window.onload=test
 
 
+
+
+
+
